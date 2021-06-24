@@ -1,0 +1,44 @@
+{
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 1,
+  "git.confirmSync": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    80
+  ],
+  "editor.fontLigatures": true,
+  "editor.fontSize": 10,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.detectIndentation": false,
+  "workbench.iconTheme": "vscode-icons",
+  "eslint.format.enable": true,
+  "eslint.nodePath": null,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "html.format.wrapLineLength": 80,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": [
+      "document"
+    ]
+  },
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--config",
+    "/Users/jashment/pyproject.toml"
+  ],
+  "search.useGlobalIgnoreFiles": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  }
+}
